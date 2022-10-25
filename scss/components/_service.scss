@@ -1,0 +1,104 @@
+.service{
+    .horizontal_line{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    h3{
+        text-align: center;
+        font-family: 'Roboto';
+        margin-top: 20px;
+        font-size: 45px;
+    }
+
+    
+}
+
+@media screen and (min-width: $small) {
+
+    .service_directions{
+        display: none;
+    }
+    .main_service_p{
+        width: 289px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .service_item_box{
+        display: flex;
+        .service_block{
+            display: flex;
+
+        }
+    }
+
+    .section_extra_card{
+      padding: 30px;
+    }
+
+    .service_card_box{
+        display: none;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        padding: 50px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+
+        .teeth_pic{
+            margin: 0 auto;
+        }
+    }
+
+  }
+
+  @media screen and (min-width: $large) {
+    .section_general{
+        position: relative;
+        top: 0;
+    }
+
+    .service_directions{
+        position: absolute;
+        bottom: 150px;
+        display: flex;
+        gap: 1200px;
+        margin: 50px;
+    }
+
+
+
+    .main_service_p{
+        width: 744px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
+    br{
+        display: none;
+    }
+
+    .service_item_box{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin: 0 auto;
+    }
+
+    .service_card_box{
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin: 30px;
+    
+   
+    }
+   
+  }
